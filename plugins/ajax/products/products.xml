@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="ajax" version="5.0" method="upgrade">
+    <name>plg_ajax_products</name>
+    <version>1.0.0</version>
+    <description>AJAX plugin to return PhocaCart products</description>
+    <files>
+        <filename plugin="products">products.php</filename>
+    </files>
+</extension>

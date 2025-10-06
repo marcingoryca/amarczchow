@@ -1,0 +1,14 @@
+/cache/
+/tmp/
+/logs/
+/administrator/logs/
+/configuration.php
+/backups/
+*.sql
+*.zip
+.vscode
+.idea/
+.DS_Store
+Thumbs.db
+/vendor/
+node_modules/

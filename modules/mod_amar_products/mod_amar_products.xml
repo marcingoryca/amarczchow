@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="5.0" client="site" method="upgrade">
+<name>mod_amar_products</name>
+<title>Amar-Produkty</title>
+<description>Wybrane towary dostępne w ofercie sklepu stacjonarnego</description>
+<files>
+<filename module="mod_amar_products">mod_amar_products.php</filename>
+<filename>mod_amar_products.xml</filename>
+<folder>tmpl</folder>
+<folder>src</folder>
+</files>
+</extension>
