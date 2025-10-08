@@ -38,32 +38,32 @@ use Joomla\CMS\Uri\Uri;
         </section>    
         <nav>
             <ul class="head-nav a-w700">
-                <li class="head-nav-bikes"><a href="https://amarczchow.pl/rowery" title="Rowery">ROWERY</a>
+                <li class="head-nav-bikes"><a href="rowery" title="Rowery">ROWERY</a>
                     <ul class="head-subnav-bikes">
-                        <li><a href="https://amarczchow.pl/rowery/mtb" title="Rowery MTB (Górskie)">ROWERY MTB (GÓRSKIE)</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/city" title="Rowery City (Miejskie)">ROWERY CITY (MIEJSKIE)</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/trekking" title="Rowery Trekkingowe (Turystyczne)">ROWERY TREKKINGOWE (TURYSTYCZNE)</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/cross" title="Rowery Cross">ROWERY CROSS</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/junior" title="Rowery Junior (Młodzieżowe)">ROWERY JUNIOR (MŁODZIEŻOWE)</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/kids" title="Rowery Kids (Dziecięce)">ROWERY KIDS (DZIECIĘCE)</a></li>
-                        <li><a href="https://amarczchow.pl/rowery/ebike" title="Rowery E-Bike (Elektryczne)">ROWERY E-BIKE (ELEKTRYCZNE)</a></li>
+                        <li><a href="rowery/mtb" title="Rowery MTB (Górskie)">ROWERY MTB (GÓRSKIE)</a></li>
+                        <li><a href="rowery/city" title="Rowery City (Miejskie)">ROWERY CITY (MIEJSKIE)</a></li>
+                        <li><a href="rowery/trekking" title="Rowery Trekkingowe (Turystyczne)">ROWERY TREKKINGOWE (TURYSTYCZNE)</a></li>
+                        <li><a href="rowery/cross" title="Rowery Cross">ROWERY CROSS</a></li>
+                        <li><a href="rowery/junior" title="Rowery Junior (Młodzieżowe)">ROWERY JUNIOR (MŁODZIEŻOWE)</a></li>
+                        <li><a href="rowery/kids" title="Rowery Kids (Dziecięce)">ROWERY KIDS (DZIECIĘCE)</a></li>
+                        <li><a href="rowery/ebike" title="Rowery E-Bike (Elektryczne)">ROWERY E-BIKE (ELEKTRYCZNE)</a></li>
                     </ul>
                 </li>
-                <li class="head-nav-garden"><a href="https://amarczchow.pl/ogrod" title="Ogród">OGRÓD</a>
+                <li class="head-nav-garden"><a href="/ogrod" title="Ogród">OGRÓD</a>
                     <ul class="head-subnav-garden">
-                        <li><a href="https://amarczchow.pl/ogrod/traktorki" title="Traktorki">TRAKTORKI</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/kosiarki" title="Kosiarki">KOSIARKI</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/kosy" title="Kosy">KOSY</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/wykaszarki" title="Wykaszarki">WYKASZARKI</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/pilarki" title="Pilarki">PILARKI</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/nozyce" title="Nożyce">NOŻYCE</a></li>
-                        <li><a href="https://amarczchow.pl/ogrod/dmuchawy" title="Dmuchawy">DMUCHAWY</a></li>
+                        <li><a href="ogrod/traktorki" title="Traktorki">TRAKTORKI</a></li>
+                        <li><a href="ogrod/kosiarki" title="Kosiarki">KOSIARKI</a></li>
+                        <li><a href="ogrod/kosy" title="Kosy">KOSY</a></li>
+                        <li><a href="ogrod/wykaszarki" title="Wykaszarki">WYKASZARKI</a></li>
+                        <li><a href="ogrod/pilarki" title="Pilarki">PILARKI</a></li>
+                        <li><a href="ogrod/nozyce" title="Nożyce">NOŻYCE</a></li>
+                        <li><a href="ogrod/dmuchawy" title="Dmuchawy">DMUCHAWY</a></li>
                     </ul>
                 </li>
-                <li><a href="https://amarczchow.pl/fajerwerki" title="Fajerwerki">FAJERWERKI</a></li>
-                <li><a href="https://amarczchow.pl/militaria" title="Militaria | Akcesoria">MILITARIA</a></li>
-                <li><a href="https://amarczchow.pl/serwis" title="Serwis">SERWIS</a></li>
-                <li><a href="https://amarczchow.pl/sklep" title="Sklep">SKLEP</a></li>
+                <li><a href="fajerwerki" title="Fajerwerki">FAJERWERKI</a></li>
+                <li><a href="militaria" title="Militaria | Akcesoria">MILITARIA</a></li>
+                <li><a href="serwis" title="Serwis">SERWIS</a></li>
+                <li><a href="sklep" title="Sklep">SKLEP</a></li>
             </ul>        
         </nav>
     </header>
@@ -89,14 +89,14 @@ use Joomla\CMS\Uri\Uri;
         <div id="company">
             <h6>FIRMA</h6>
             <ul class="about-list">
-            <li><a href="https://amarczchow.pl/o-nas" title="O nas">O nas</a></li>
-            <li><a href="https://amarczchow.pl/kontakt" title="Kontakt">Kontakt</a></li>
-            <li><a href="https://amarczchow.pl/serwis" title="Serwis">Serwis</a></li>
-            <li><a href="https://amarczchow.pl/sklep" title="Sklep">Sklep</a></li>
+            <li><a href="o-nas" title="O nas">O nas</a></li>
+            <li><a href="kontakt" title="Kontakt">Kontakt</a></li>
+            <li><a href="serwis" title="Serwis">Serwis</a></li>
+            <li><a href="sklep" title="Sklep">Sklep</a></li>
             </ul>
         </div>
         <div id="policy">
-            <a href="https://amarczchow.pl/privacy-policy" title="Polityka prywatności">Polityka prywatności</a>
+            <a href="privacy-policy" title="Polityka prywatności">Polityka prywatności</a>
         </div>
         <div id="socialmedia">
             <a href="https://facebook.com/profile.php?id=100091278439261" title="Facebook"><img class="social-icon" src="<?php echo Uri::root(); ?>/images/facebook.png" alt="Facebook"></a>

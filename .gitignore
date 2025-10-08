@@ -9,6 +9,8 @@
 .vscode
 .idea/
 .DS_Store
+.htaccess
 Thumbs.db
 /vendor/
 node_modules/
+/templates/amar/index.php

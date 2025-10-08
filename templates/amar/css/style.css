@@ -360,6 +360,11 @@ nav a:visited {
     height: 120px;
     display: block;
 }
+
+.image-thumb {
+    width: 220px;
+    height: 140px;
+}
 /* --- END --- */
 
 /** 5. FONTS */
