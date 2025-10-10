@@ -1,0 +1,152 @@
+/** Style file for amarczchow.pl */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Figtree';
+}
+
+/** HEADER */
+header {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+}
+
+/** HEAD */
+/* for heading images, videos etc. */
+#head {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    background-color: rgba(0,0,0,1.0);
+}
+
+/** FOOTER */
+footer {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+    background-color: ivory;
+}
+
+/** SECTION NEWS */
+#news {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+    background-color: rgba(255, 128, 125, 0.7);
+}
+
+/** SECTION ROWERY */
+#rowery {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(225,225,225, 1.0);
+}
+
+/** SECTION OGROD */
+#ogrod {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(128, 129, 120, 1.0);
+}
+
+/** SECTION MILITARIA */
+#militaria {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(198, 33, 202, 0.2);
+}
+
+/** SECTION FAJERWERKI */
+#fajerwerki {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(11, 12, 15, 0.3);
+}
+
+/** SECTION SERWIS */
+#serwis {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(65, 65, 65, 0.2);
+}
+
+/** SECTION SKLEP */
+#sklep {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    background-color: rgba(240, 10, 255, 0.2);
+}
+
+/** LOGO IMAGE */
+.logo-image {
+    width: 100px;
+    height: 60px;
+}
+
+/** LOGO FOOTER */
+#logo-footer {
+    margin-bottom: 0;
+}
+
+.logo-image-footer {
+    width: 360px;
+    height: 210px;
+    filter: invert(0.1) opacity(0.1);
+}
+
+/** HOME ICONS */
+.home-icon {
+    width: 22px;
+    height: 22px;
+}
+
+/** SOCIAL ICONS */
+.social-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/** FILTER GRAYSCALE */
+.grayscale {
+    filter: grayscale(1);
+}
+
+/** FILTER CONTRAST */
+.contrast {
+    filter: contrast(1.8);
+}
+
+/** FILTER BRIGHTNESS */
+.brightness {
+    filter: brightness(0.2);
+}
+
+/* FILTER INVERT */
+.invert {
+    filter: invert(1);
+}
+
+/** BACKGROUND TEXT FOR SECTIONS */
+.background-text {
+    font-size: 16em;
+    font-weight: 800;
+    filter: opacity(0.1);
+    z-index: -1;
+}

@@ -1,4 +1,4 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:4:"body";s:9348:"<!DOCTYPE html>
+<?php die("Access Denied"); ?>#x#a:2:{s:4:"body";s:9506:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,9 @@
 	<title>Strona główna</title>
 	<link href="/amarczchow/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="Strona główna">
 	<link href="/amarczchow/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Strona główna">
-<script type="application/json" class="joomla-script-options new">{"system.paths":{"root":"\/amarczchow","rootFull":"http:\/\/localhost\/amarczchow\/","base":"\/amarczchow","baseFull":"http:\/\/localhost\/amarczchow\/"},"csrf.token":"35fc30fb92e77ed43139a394c232e7b5"}</script>
+<script type="application/json" class="joomla-script-options new">{"system.paths":{"root":"\/amarczchow","rootFull":"http:\/\/localhost\/amarczchow\/","base":"\/amarczchow","baseFull":"http:\/\/localhost\/amarczchow\/"},"csrf.token":"c4a4bd8a5f0f51ba0b49964bc3aee51c","plg_system_schedulerunner":{"interval":300}}</script>
 	<script src="/amarczchow/media/system/js/core.min.js?2cb912"></script>
+	<script src="/amarczchow/media/plg_system_schedulerunner/js/run-schedule.min.js?229d3b" type="module"></script>
 	<script src="http://localhost/amarczchow/media/mod_amar_products/js/script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -145,4 +146,4 @@
     </footer>
     <script src="/amarczchow/templates/amar/js/script.js"></script>
 </body>
-</html>";s:7:"headers";a:9:{i:0;a:2:{s:4:"name";s:15:"x-frame-options";s:5:"value";s:10:"SAMEORIGIN";}i:1;a:2:{s:4:"name";s:15:"referrer-policy";s:5:"value";s:31:"strict-origin-when-cross-origin";}i:2;a:2:{s:4:"name";s:26:"cross-origin-opener-policy";s:5:"value";s:11:"same-origin";}i:3;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:4;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:5;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Wed, 08 Oct 2025 06:48:18 GMT";}i:6;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:7;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}i:8;a:2:{s:4:"name";s:6:"Status";s:5:"value";s:3:"200";}}}
+</html>";s:7:"headers";a:9:{i:0;a:2:{s:4:"name";s:15:"x-frame-options";s:5:"value";s:10:"SAMEORIGIN";}i:1;a:2:{s:4:"name";s:15:"referrer-policy";s:5:"value";s:31:"strict-origin-when-cross-origin";}i:2;a:2:{s:4:"name";s:26:"cross-origin-opener-policy";s:5:"value";s:11:"same-origin";}i:3;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:4;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:5;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Fri, 10 Oct 2025 07:15:09 GMT";}i:6;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:7;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}i:8;a:2:{s:4:"name";s:6:"Status";s:5:"value";s:3:"200";}}}
