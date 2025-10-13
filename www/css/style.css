@@ -2,6 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+html, body {
+    /*overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;*/
 }
 
 body {
@@ -15,6 +22,30 @@ header {
     width: 100%;
 }
 
+.header-top {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 20px;
+}
+
+.header-title {
+    display: block;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(189, 189, 189, 0.2);
+    z-index: -1;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.header-description {
+    font-weight: 900;
+    display: block;
+    text-align: center;
+}
+
 /** HEAD */
 /* for heading images, videos etc. */
 #head {
@@ -22,6 +53,173 @@ header {
     min-height: 400px;
     max-height: fit-content;
     background-color: rgba(0,0,0,1.0);
+}
+
+/** HOME INFO */
+#header-home-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    font-weight: 700;
+}
+
+/** HOME PHONE */
+#header-home-phone {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-home-phone > p {
+    padding-left: 10px;
+}
+
+/** HOME EMAIL */
+#header-home-email {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-home-email > p {
+    padding-left: 10px;
+}
+
+/** HOME HOURS */
+#header-home-hours {
+    display: flex;
+}
+
+#header-home-hours img {
+
+}
+
+#header-home-hours > p {
+    padding-left: 10px;
+}
+
+/** NAVIGATION IN HEADER */
+nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1em;
+    color: black;
+}
+
+nav li a:hover {
+
+}
+
+nav li a:visited {
+    color: black;
+}
+
+.sub-bikes {
+    display: none;
+    position: absolute;
+    left: 20px;
+}
+
+.sub-bikes-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.bikes-nav:hover ul {
+    display: block;
+    background: rgba(255, 255, 255, 1.0);
+    width: 40em;
+    margin-top: 1px;
+}
+
+.bikes-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.bikes-nav:hover li:last-child {
+    padding-bottom: 2em;
+}
+
+.sub-garden {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-garden-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.garden-nav:hover ul {
+    display: block;
+    background: rgba(50, 255, 129, 1.0);
+    width: 40em;
+    margin-top: 1px;
+}
+
+.garden-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.garden-nav:hover li:last-child {
+    padding-bottom: 2em;
+}
+
+.sub-mil {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-mil-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.mil-nav:hover ul {
+    display: block;
+    background: khaki;
+    width: 40em;
+    margin-top: 1px;
+}
+
+.mil-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.mil-nav:hover li:last-child {
+    padding-bottom: 2em;
 }
 
 /** FOOTER */
@@ -77,6 +275,11 @@ footer {
     background-color: rgba(11, 12, 15, 0.3);
 }
 
+#fajerwerki p {
+    /*max-width: fit-content;*/
+    font-size: 14em;
+}
+
 /** SECTION SERWIS */
 #serwis {
     width: 100%;
@@ -98,6 +301,14 @@ footer {
 .logo-image {
     width: 100px;
     height: 60px;
+    display: block;
+    margin: 0;
+}
+
+.link-logo-image {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 
 /** LOGO FOOTER */
@@ -121,6 +332,12 @@ footer {
 .social-icon {
     width: 18px;
     height: 18px;
+}
+
+/** PEOPLE ICON */
+.people-icon {
+    width: 30px;
+    height: 30px;
 }
 
 /** FILTER GRAYSCALE */
@@ -149,4 +366,8 @@ footer {
     font-weight: 800;
     filter: opacity(0.1);
     z-index: -1;
+}
+
+.hidden-text {
+    display: none;
 }

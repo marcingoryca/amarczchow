@@ -11,28 +11,59 @@
 </head>
 <body>
     <header>
-        <a href="https://amarczchow.pl" title="Amar Czchów, Rowery|Kosiarki|Serwis"><img class="logo-image" src="images/logo_amar.png" alt="Logo Amar Czchów"></a>
-        <h1 title="Amar Czchów">AMAR CZCHÓW</h1>
-        <h2 title="Rowery|Kosiarki|Serwis">ROWERY | KOSIARKI | SERWIS</h2>
-        <div id="home-info">
-            <div id="home-phone">
+        <div class="header-top">
+        <a class="link-logo-image" href="https://amarczchow.pl" title="Amar Czchów"><img class="logo-image" src="images/logo_amar.png" alt="Logo Amar Czchów" /></a>
+        <h2 class="header-description" title="Rowery/Kosiarki/Serwis">ROWERY / KOSIARKI / SERWIS</h2>
+        <div id="header-home-info">
+            <div id="header-home-phone">
                 <img class="home-icon" src="images/old-typical-phone.png" alt="old-typical-phone.png">
-                <p>14 684 35 90</p>
+                <p title="Zadzwoń do nas!">14 684 35 90</p>
             </div>
-            <div id="home-email">
+            <div id="header-home-email">
                 <img class="home-icon" src="images/email.png" alt="email.png">
-                <p>amar1@poczta.fm</p>
+                <p title="Napisz do nas!">amar1@poczta.fm</p>
             </div>
-            <div id="home-hours">
-                <p>Pon-Pt: 8:00 - 16:00</p>
-                <p>Sobota: 8:00 - 13:00</p>
+            <div id="header-home-hours">
+                <img class="people-icon" src="images/people.png" alt="door.png">
+                <p title="Godziny otwarcia sklepu">Pon-Pt: 8:00 - 16:00, Sobota: 8:00 - 13:00</p>
             </div>
         </div>
+        </div>
+        <h1 class="header-title" title="Amar Czchów">AMAR CZCHÓW</h1>
         <nav>
             <ul>
-                <li><a href="#rowery" title="ROWERY">ROWERY</a></li>
-                <li><a href="#ogrod" title="OGRÓD">OGRÓD</a></li>
-                <li><a href="#militaria" title="MILITARIA">MILITARIA</a></li>
+                <li class="bikes-nav"><a href="#rowery" title="ROWERY">ROWERY</a>
+                    <ul class="sub-bikes">
+                        <img src="images/storm-shark-9.png" class="sub-bikes-image">
+                        <li><a href="rowery/mtb" title="Rowery MTB (Górskie)">ROWERY MTB (GÓRSKIE)</a></li>
+                        <li><a href="rowery/city" title="Rowery City (Miejskie)">ROWERY CITY (MIEJSKIE)</a></li>
+                        <li><a href="rowery/trekking" title="Rowery Trekkingowe (Turystyczne)">ROWERY TREKKINGOWE (TURYSTYCZNE)</a></li>
+                        <li><a href="rowery/cross" title="Rowery Cross">ROWERY CROSS</a></li>
+                        <li><a href="rowery/junior" title="Rowery Junior (Młodzieżowe)">ROWERY JUNIOR (MŁODZIEŻOWE)</a></li>
+                        <li><a href="rowery/kids" title="Rowery Kids (Dziecięce)">ROWERY KIDS (DZIECIĘCE)</a></li>
+                        <li><a href="rowery/ebike" title="Rowery E-Bike (Elektryczne)">ROWERY E-BIKE (ELEKTRYCZNE)</a></li>
+                    </ul>
+                </li>
+                <li class="garden-nav"><a href="#ogrod" title="OGRÓD">OGRÓD</a>
+                    <ul class="sub-garden">
+                        <img class="sub-garden-image" src="images/stiga-collector-48s.png" alt="stiga collector 48s">
+                        <li><a href="ogrod/traktorki" title="Traktorki">TRAKTORKI</a></li>
+                        <li><a href="ogrod/kosiarki" title="Kosiarki">KOSIARKI</a></li>
+                        <li><a href="ogrod/kosy" title="Kosy">KOSY</a></li>
+                        <li><a href="ogrod/wykaszarki" title="Wykaszarki">WYKASZARKI</a></li>
+                        <li><a href="ogrod/pilarki" title="Pilarki">PILARKI</a></li>
+                        <li><a href="ogrod/nozyce" title="Nożyce">NOŻYCE</a></li>
+                        <li><a href="ogrod/dmuchawy" title="Dmuchawy">DMUCHAWY</a></li>
+                    </ul>
+                </li>
+                <li class="mil-nav"><a href="#militaria" title="MILITARIA">MILITARIA</a>
+                    <ul class="sub-mil">
+                        <img class="sub-mil-image" src="images/mil.png" alt="military image">
+                        <li><a href="militaria/airsoft" title="AIRSOFT">AIRSOFT</a></li>
+                        <li><a href="militaria/wiatrowki" title="WIATRÓWKI">WIATRÓWKI</a></li>
+                        <li><a href="militaria/odziez" title="ODZIEŻ OCHRONNA">ODZIEŻ OCHRONNA</a></li>
+                    </ul>
+                </li>
                 <li><a href="#fajerwerki" title="FAJERWERKI">FAJERWERKI</a></li>
                 <li><a href="#serwis" title="SERWIS">SERWIS</a></li>
                 <li><a href="#sklep" title="SKLEP">SKLEP</a></li>
@@ -40,7 +71,9 @@
         </nav>
         <div id="head"></div>
     </header>
-    <section id="news"></section>
+    <section id="news">
+        <h2 class="hidden-text">NEWS</h2>
+    </section>
     <section id="rowery">
         <h2>ROWERY</h2>
         <p class="background-text">ROWERY</p>
@@ -78,6 +111,20 @@
         <div id="socials">
             <img class="social-icon grayscale" src="images/youtube.png" alt="youtube.png">
             <img class="social-icon" src="images/facebook.png" alt="facebook.png">
+        </div>
+        <div id="home-info-footer">
+            <div id="home-phone-footer">
+                <img class="home-icon" src="images/old-typical-phone.png" alt="old-typical-phone.png">
+                <p>14 684 35 90</p>
+            </div>
+            <div id="home-email-footer">
+                <img class="home-icon" src="images/email.png" alt="email.png">
+                <p>amar1@poczta.fm</p>
+            </div>
+            <div id="home-hours-footer">
+                <p>Pon-Pt: 8:00 - 16:00</p>
+                <p>Sobota: 8:00 - 13:00</p>
+            </div>
         </div>
         <div id="logo-footer">
             <a href="https://amarczchow.pl" title="Amar Czchów Rowery|Kosiarki|Serwis"><img class="logo-image-footer" src="images/logo_amar.png" alt="Logo Amar Czchów"></a>
