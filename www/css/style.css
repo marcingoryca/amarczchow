@@ -116,7 +116,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1.1em;
     color: black;
 }
@@ -129,6 +129,20 @@ nav li a:visited {
     color: black;
 }
 
+nav ul li ul a {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+nav ul li ul h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: rgba(28, 28, 28, 0.1);
+    position: absolute;
+    left: 1em;
+    top: 5.5em;
+}
+
 .sub-bikes {
     display: none;
     position: absolute;
@@ -139,7 +153,7 @@ nav li a:visited {
     width: 390px;
     height: 260px;
     position: absolute;
-    top: 5px;
+    top: 4.1em;
     right: -100px;
 }
 
@@ -147,7 +161,10 @@ nav li a:visited {
     display: block;
     background: rgba(255, 255, 255, 1.0);
     width: 40em;
+    height: 20em;
     margin-top: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .bikes-nav:hover li {
@@ -170,15 +187,18 @@ nav li a:visited {
     width: 390px;
     height: 260px;
     position: absolute;
-    top: 5px;
+    top: 4.3em;
     right: -100px;
 }
 
 .garden-nav:hover ul {
     display: block;
-    background: rgba(50, 255, 129, 1.0);
+    background: rgba(189, 241, 209, 1.0);
     width: 40em;
+    height: 20em;
     margin-top: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .garden-nav:hover li {
@@ -201,7 +221,7 @@ nav li a:visited {
     width: 390px;
     height: 260px;
     position: absolute;
-    top: 5px;
+    top: 3.8em;
     right: -100px;
 }
 
@@ -209,7 +229,10 @@ nav li a:visited {
     display: block;
     background: khaki;
     width: 40em;
+    height: 20em;
     margin-top: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .mil-nav:hover li {
@@ -222,12 +245,91 @@ nav li a:visited {
     padding-bottom: 2em;
 }
 
+.sub-fire {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-fire-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 4.1em;
+    right: -100px;
+    /*border-radius: 48%;*/
+}
+
+.fire-nav:hover ul {
+    display: block;
+    background: rgba(20, 20, 20, 1.0);
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: 1px solid rgb(56, 56, 56);
+    border-left: 1px solid rgb(56, 56, 56);
+    border-right: 1px solid rgb(56, 56, 56);
+}
+
+.fire-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.fire-nav:hover li a {
+    color: white;
+}
+
+.fire-nav:hover h2 {
+    color: rgb(38, 38, 38);
+}
+
+.sub-service {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-service-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 3.8em;
+    right: -100px;
+}
+
+.service-nav:hover ul {
+    display: block;
+    background: white;
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.service-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
 /** FOOTER */
 footer {
     min-height: 400px;
     max-height: fit-content;
     width: 100%;
     background-color: ivory;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr 1fr;
+    /*grid-column: 1 / span 2;*/
 }
 
 /** SECTION NEWS */
@@ -297,6 +399,100 @@ footer {
     background-color: rgba(240, 10, 255, 0.2);
 }
 
+/** SECTION FIRMA */
+#company {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#company li {
+    list-style: none;
+}
+
+#company a {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: darkred;
+}
+
+#home-phone-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#home-phone-footer p {
+    margin-left: 20px;
+}
+
+#home-email-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-email-footer p {
+    margin-left: 20px;
+}
+
+#home-hours-footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/** SOCIALS SECTION */
+#socials {
+    margin-top: 40px;
+}
+
+/** COLLABORATION SECTION */
+#collaboration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#collaboration a {
+    /*margin-left: 100px;*/
+    flex-basis: 100px;
+}
+
+/** COLLABORATION ICONS */
+.stiga-logo {
+    width: 40px;
+    height: 10px;
+}
+
+.storm-logo {
+    width: 60px;
+    height: 10px;
+}
+
+.rozkwit-logo {
+    width: 20px;
+    height: 14px;
+}
+
+.cedrus-logo {
+    width: 60px;
+    height: 10px;
+}
+
+.northtec-logo {
+    width: 60px;
+    height: 10px;
+}
+
+.kellys-logo {
+    width: 60px;
+    height: 18px;
+}
+
+.kands-logo {
+    width: 60px;
+    height: 12px;
+}
+
 /** LOGO IMAGE */
 .logo-image {
     width: 100px;
@@ -314,18 +510,20 @@ footer {
 /** LOGO FOOTER */
 #logo-footer {
     margin-bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .logo-image-footer {
     width: 360px;
     height: 210px;
-    filter: invert(0.1) opacity(0.1);
+    filter: invert(0.1) opacity(0.03);
 }
 
 /** HOME ICONS */
 .home-icon {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 }
 
 /** SOCIAL ICONS */
@@ -370,4 +568,11 @@ footer {
 
 .hidden-text {
     display: none;
+}
+
+/** COPYRIGHTS */
+.copy {
+    width: 95%;
+    text-align: right;
+    font-size: 0.8em;
 }

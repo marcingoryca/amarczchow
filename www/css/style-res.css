@@ -1,0 +1,438 @@
+/** Style file for amarczchow.pl */
+/** RESPONSIVENESS */
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+html, body {
+    /*overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;*/
+}
+
+body {
+    font-family: 'Figtree';
+}
+
+/** HEADER */
+header {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 20px;
+}
+
+.header-title {
+    display: block;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(189, 189, 189, 0.2);
+    z-index: -1;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.header-description {
+    font-weight: 900;
+    display: block;
+    text-align: center;
+}
+
+/** HEAD */
+/* for heading images, videos etc. */
+#head {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    background-color: rgba(0,0,0,1.0);
+}
+
+/** HOME INFO */
+#header-home-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    font-weight: 700;
+}
+
+/** HOME PHONE */
+#header-home-phone {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-home-phone > p {
+    padding-left: 10px;
+}
+
+/** HOME EMAIL */
+#header-home-email {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-home-email > p {
+    padding-left: 10px;
+}
+
+/** HOME HOURS */
+#header-home-hours {
+    display: flex;
+}
+
+#header-home-hours img {
+
+}
+
+#header-home-hours > p {
+    padding-left: 10px;
+}
+
+/** NAVIGATION IN HEADER */
+nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: black;
+}
+
+nav li a:hover {
+
+}
+
+nav li a:visited {
+    color: black;
+}
+
+nav ul li ul a {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.sub-bikes {
+    display: none;
+    position: absolute;
+    left: 20px;
+}
+
+.sub-bikes-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.bikes-nav:hover ul {
+    display: block;
+    background: rgba(255, 255, 255, 1.0);
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+}
+
+.bikes-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.bikes-nav:hover li:last-child {
+    padding-bottom: 2em;
+}
+
+.sub-garden {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-garden-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.garden-nav:hover ul {
+    display: block;
+    background: rgba(50, 255, 129, 1.0);
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+}
+
+.garden-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.garden-nav:hover li:last-child {
+    padding-bottom: 2em;
+}
+
+.sub-mil {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-mil-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.mil-nav:hover ul {
+    display: block;
+    background: khaki;
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+}
+
+.mil-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.mil-nav:hover li:last-child {
+    padding-bottom: 2em;
+}
+
+.sub-fire {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-fire-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.fire-nav:hover ul {
+    display: block;
+    background: white;
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+}
+
+.fire-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.sub-service {
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
+.sub-service-image {
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+}
+
+.service-nav:hover ul {
+    display: block;
+    background: white;
+    width: 40em;
+    height: 20em;
+    margin-top: 1px;
+}
+
+.service-nav:hover li {
+    display: block;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+/** FOOTER */
+footer {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+    background-color: ivory;
+}
+
+/** SECTION NEWS */
+#news {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+    background-color: rgba(255, 128, 125, 0.7);
+}
+
+/** SECTION ROWERY */
+#rowery {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(225,225,225, 1.0);
+}
+
+/** SECTION OGROD */
+#ogrod {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(128, 129, 120, 1.0);
+}
+
+/** SECTION MILITARIA */
+#militaria {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(198, 33, 202, 0.2);
+}
+
+/** SECTION FAJERWERKI */
+#fajerwerki {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(11, 12, 15, 0.3);
+}
+
+#fajerwerki p {
+    /*max-width: fit-content;*/
+    font-size: 14em;
+}
+
+/** SECTION SERWIS */
+#serwis {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(65, 65, 65, 0.2);
+}
+
+/** SECTION SKLEP */
+#sklep {
+    width: 100%;
+    min-height: 400px;
+    max-height: fit-content;
+    background-color: rgba(240, 10, 255, 0.2);
+}
+
+/** LOGO IMAGE */
+.logo-image {
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin: 0;
+}
+
+.link-logo-image {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/** LOGO FOOTER */
+#logo-footer {
+    margin-bottom: 0;
+}
+
+.logo-image-footer {
+    width: 360px;
+    height: 210px;
+    filter: invert(0.1) opacity(0.1);
+}
+
+/** HOME ICONS */
+.home-icon {
+    width: 22px;
+    height: 22px;
+}
+
+/** SOCIAL ICONS */
+.social-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/** PEOPLE ICON */
+.people-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/** FILTER GRAYSCALE */
+.grayscale {
+    filter: grayscale(1);
+}
+
+/** FILTER CONTRAST */
+.contrast {
+    filter: contrast(1.8);
+}
+
+/** FILTER BRIGHTNESS */
+.brightness {
+    filter: brightness(0.2);
+}
+
+/* FILTER INVERT */
+.invert {
+    filter: invert(1);
+}
+
+/** BACKGROUND TEXT FOR SECTIONS */
+.background-text {
+    font-size: 16em;
+    font-weight: 800;
+    filter: opacity(0.1);
+    z-index: -1;
+}
+
+.hidden-text {
+    display: none;
+}
