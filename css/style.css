@@ -736,6 +736,7 @@ footer {
 .back-fire {
     filter: opacity(0.6);
     font-size: 14em;
+    overflow: hidden;
 }
 
 .hidden-text {
@@ -749,3 +750,23 @@ footer {
     font-size: 0.8em;
 }
 
+.copy span {
+    margin-left: 40px;
+    font-size: 0.6em;
+}
+
+.footer-line {
+    width: 50%;
+    margin: auto;
+    background-color: #eeeeee;
+    border: 0;
+    display: block;
+    height: 1px;
+    padding: 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 20px;
+    border: 0;
+}
