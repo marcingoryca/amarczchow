@@ -1,3 +1,0 @@
-[2025-10-08 06:57:20] ps_accounts.ERROR: PrestaShop\Module\PsAccounts\Repository\ConfigurationRepository::getShopUuidDateUpd: Configuration entry not found: PSX_UUID_V4|grp:|shop: [] []
-[2025-10-08 06:57:48] ps_accounts.ERROR: PrestaShop\Module\PsAccounts\Repository\ConfigurationRepository::getShopUuidDateUpd: Configuration entry not found: PSX_UUID_V4|grp:|shop: [] []
-[2025-10-08 06:57:52] ps_accounts.ERROR: PrestaShop\Module\PsAccounts\Repository\ConfigurationRepository::getShopUuidDateUpd: Configuration entry not found: PSX_UUID_V4|grp:|shop: [] []
