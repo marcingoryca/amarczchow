@@ -1,11 +1,11 @@
 /** Style file for amarczchow.pl */
 /** RESPONSIVENESS */
-/** FOR THE SMALLEST */
-@media only screen and (max-width: 600px) {
+/** TABLETS */
+@media only screen and (max-width: 768px) {
 * {
     margin: 0;
     padding: 0;
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 
 html, body {
@@ -293,10 +293,17 @@ nav ul li ul a {
 
 /** FOOTER */
 footer {
-    min-height: /*400px;*/fit-content;
+    min-height: 300px;
     max-height: fit-content;
     width: 100%;
     background-color: ivory;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr 1fr;
+    /*grid-column: 1 / span 2;*/
 }
 
 /** SECTION NEWS */
@@ -328,9 +335,8 @@ footer {
 }
 
 .rowery-section-layout {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-column: 2 / span 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .rowery-section-description {
@@ -372,6 +378,47 @@ footer {
     background-color: rgba(128, 129, 120, 1.0);
 }
 
+.ogrod-section-layout {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ogrod-section-collab {
+    margin-top: 200px;
+    margin-left: 90px;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    padding: 10px;
+    height: 200px;
+}
+
+.ogrod-section-collab-images {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ogrod-section-collab-images img {
+    margin-top: 20px;
+}
+
+.ogrod-image-heading {
+    width: 200px;
+    height: 130px;
+    margin-top: 60px;
+}
+
+.ogrod-section-description {
+    width: 500px;
+    min-height: 200px;
+    max-height: fit-content;
+    border: 1px solid #a9a9a9;
+    margin-top: 200px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
 /** SECTION MILITARIA */
 #militaria {
     width: 100%;
@@ -381,18 +428,61 @@ footer {
     background-color: rgba(198, 33, 202, 0.2);
 }
 
+.militaria-section-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.militaria-section-description {
+    margin-top: 200px;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+    width: 500px;
+    min-height: 200px;
+    max-height: fit-content;
+    padding: 10px; 
+}
+
+.militaria-image-heading {
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
+}
+
 /** SECTION FAJERWERKI */
 #fajerwerki {
     width: 100%;
     min-height: /*400px;*/fit-content;
     max-height: fit-content;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    background-color: rgba(11, 12, 15, 0.3);
+    background-color: rgba(11, 12, 15, 1.0);
 }
 
-#fajerwerki p {
-    /*max-width: fit-content;*/
-    font-size: /*14em;*/7em;
+#fajerwerki h2 {
+    color: #a6a5a4;
+}
+
+.fajerwerki-section-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fajerwerki-image-heading {
+    width: 200px;
+    height: 140px;
+}
+
+.fajerwerki-section-description {
+    padding: 20px;
+    margin-top: 200px;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+    color: #a6a5a4;
+    width: 500px;
+    min-height: 200px;
+    max-height: fit-content;
 }
 
 /** SECTION SERWIS */
@@ -404,12 +494,114 @@ footer {
     background-color: rgba(65, 65, 65, 0.2);
 }
 
+.serwis-section-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.serwis-image-heading {
+    width: 200px;
+    height: 200px;
+}
+
+.serwis-section-description {
+    padding: 20px;
+    margin-top: 200px;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+    width: 500px;
+    min-height: 200px;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
 /** SECTION SKLEP */
 #sklep {
     width: 100%;
     min-height: /*400px;*/fit-content;
     max-height: fit-content;
     background-color: rgba(240, 10, 255, 0.2);
+}
+
+.sklep-section-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sklep-section-images-img {
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.sklep-section-description {
+    padding: 20px;
+    margin-top: 100px;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+    width: 500px;
+    min-height: 200px;
+    max-height: fit-content;
+}
+
+/** SECTION FIRMA */
+#company {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#company li {
+    list-style: none;
+}
+
+#company a {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: darkred;
+}
+
+#home-phone-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#home-phone-footer p {
+    margin-left: 20px;
+}
+
+#home-email-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-email-footer p {
+    margin-left: 20px;
+}
+
+#home-hours-footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/** SOCIALS SECTION */
+#socials {
+    margin-top: 40px;
+}
+
+/** COLLABORATION SECTION */
+#collaboration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#collaboration a {
+    /*margin-left: 100px;*/
+    flex-basis: 100px;
 }
 
 /** LOGO IMAGE */

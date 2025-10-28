@@ -22,12 +22,69 @@ header {
     width: 100%;
 }
 
+/** LAPTOP */
+@media only screen and (max-width: 1280px) {
+    header {
+        min-height: 360px;
+        max-height: auto;
+        width: 100%;
+    }
+}
+
+/** TABLET */
+@media only screen and (max-width: 768px) {
+    header {
+        min-height: 250px;
+        max-height: auto;
+        width: 100%;
+        /*background: yellow;*/
+    }
+}
+
+/** SMALL MOBILE */
+@media only screen and (max-width: 480px) {
+    header {
+        min-height: 220px;
+        max-height: auto;
+        width: 100%;
+        /*background: pink;*/
+    }
+}
+
 .header-top {
     display: grid;
     grid-template-columns: auto 1fr auto;
     column-gap: 20px;
 }
 
+/** LAPTOP */
+@media only screen and (max-width: 1280px) {
+    .header-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+    }
+}
+
+/** TABLET */
+@media only screen and (max-width: 768px) {
+    .header-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+}
+
+/** SMALL MOBILE */
+@media only screen and (max-width: 480px) {
+    .header-top {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 8px;
+    }
+}
+
+/** BIG TEXT IN HEADER IN THE BACKGROUND, BARELY VISIBLE */
 .header-title {
     display: block;
     font-size: 5em;
@@ -40,11 +97,43 @@ header {
     text-align: center;
 }
 
+/** LAPTOP */
+@media only screen and (max-width: 1280px) {
+    .header-title {
+        font-size: 4em;
+        top: 20%;
+    }
+}
+
+/** TABLET */
+@media only screen and (max-width: 768px) {
+    .header-title {
+        font-size: 3em;
+        top: 30%;
+    }
+}
+
+/** SMALL */
+@media only screen and (max-width: 480px) {
+    .header-title {
+        font-size: 2em;
+        top: 40%;
+    }
+}
+
 .header-description {
     font-weight: 900;
     display: block;
     text-align: center;
-    /*font-size: 3vw;*/
+    font-size: 1.9vw;
+}
+
+/** SMALL */
+@media only screen and (max-width: 480px) {
+    .header-description {
+        font-size: 1em;
+        text-align: left;
+    }
 }
 
 /** HEAD */
@@ -52,8 +141,15 @@ header {
 #head {
     width: 100%;
     min-height: 400px;
-    max-height: fit-content;
+    max-height: auto;
     background-color: rgba(0,0,0,1.0);
+}
+
+/** SMALL */
+@media only screen and (max-width: 480px) {
+    #head {
+        min-height: 200px;
+    }
 }
 
 /** HOME INFO */
@@ -64,6 +160,12 @@ header {
     font-weight: 700;
 }
 
+@media only screen and (max-width: 768px) {
+    #header-home-info {
+        grid-template-rows: auto;
+    }
+}
+
 /** HOME PHONE */
 #header-home-phone {
     display: flex;
@@ -72,6 +174,18 @@ header {
 
 #header-home-phone > p {
     padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #header-home-phone > p {
+        padding-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #header-home-phone > p {
+        padding-left: 5px;
+    }
 }
 
 /** HOME EMAIL */
@@ -100,7 +214,7 @@ header {
 
 /** NAVIGATION IN HEADER */
 nav {
-    width: 50%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -157,6 +271,36 @@ nav ul li ul h2 {
     position: absolute;
     top: 4.1em;
     right: -100px;
+}
+
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .sub-bikes-image {
+        width: 300px;
+        height: 200px;
+        right: -60px;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .sub-bikes-image {
+        width: 200px;
+        height: 130px;
+        top: 8em;
+        left: 0;
+        /*right: -10px;*/
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .sub-bikes-image {
+        width: 190px;
+        height: 120px;
+        top: 9em;
+        left: 0;
+    }
 }
 
 .bikes-nav:hover ul {
@@ -668,10 +812,42 @@ footer {
     margin: 0;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .logo-image {
+        width: 80px;
+        height: 50px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .logo-image {
+        width: 60px;
+        height: 36px;
+    }
+}
+
 .link-logo-image {
     display: inline-block;
     margin-left: 80px;
     margin-top: 20px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .link-logo-image {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .link-logo-image {
+        margin-left: 6px;
+        margin-top: 5px;
+    }
 }
 
 /** LOGO FOOTER */
