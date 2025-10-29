@@ -117,7 +117,7 @@ header {
 @media only screen and (max-width: 480px) {
     .header-title {
         font-size: 2em;
-        top: 40%;
+        top: 60%;
     }
 }
 
@@ -162,7 +162,7 @@ header {
 
 @media only screen and (max-width: 768px) {
     #header-home-info {
-        grid-template-rows: auto;
+        grid-template-columns: auto;
     }
 }
 
@@ -201,6 +201,7 @@ header {
 /** HOME HOURS */
 #header-home-hours {
     display: flex;
+    flex-direction: row;
     margin-right: 60px;
 }
 
@@ -210,6 +211,13 @@ header {
 
 #header-home-hours > p {
     padding-left: 10px;
+}
+
+/** SMALL */
+@media (max-width: 1280px) {
+    #header-home-hours {
+        margin-right: 0;
+    }
 }
 
 /** NAVIGATION IN HEADER */
@@ -501,9 +509,48 @@ footer {
     height: 400px;
 }
 
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .rowery-image-heading {
+        width: 500px;
+        height: 360px;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .rowery-image-heading {
+        width: 400px;
+        height: 270px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .rowery-image-heading {
+        width: 300px;
+        height: 180px;
+    }
+}
+
 .rowery-section-layout {
     display: flex;
     flex-direction: row;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .rowery-section-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .rowery-section-layout {
+    
+    }
 }
 
 .rowery-section-description {
@@ -516,12 +563,53 @@ footer {
     border-radius: 2px;
 }
 
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .rowery-section-description {
+        max-width: 600px;
+        min-width: 500px;
+        margin-top: 100px;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .rowery-secion-description {
+        max-width: 600px;
+        min-width: 480px;
+        margin-top: 70px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .rowery-section-description {
+        max-width: 500px;
+        min-width: 400px;
+        margin-top: 60px;
+    }
+}
+
 .rowery-section-collab {
     margin-top: 200px;
     margin-left: 90px;
     border: 1px solid #a9a9a9;
     padding: 10px;
     border-radius: 2px;
+}
+
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .rowery-section-collab {
+        margin-left: 20px;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .rowery-section-collab {
+        margin-top: 40px;
+    }
 }
 
 .rowery-section-collab-images{
@@ -548,6 +636,14 @@ footer {
     flex-direction: row;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .ogrod-section-layout {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 .ogrod-section-collab {
     margin-top: 200px;
     margin-left: 90px;
@@ -555,6 +651,15 @@ footer {
     border-radius: 4px;
     padding: 10px;
     height: 200px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .ogrod-section-collab {
+        margin-top: 20px;
+        margin-left: 10px;
+        min-height: auto;
+    }
 }
 
 .ogrod-section-collab-images {
@@ -573,6 +678,23 @@ footer {
     margin-top: 60px;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .ogrod-image-heading {
+        width: 400px;
+        height: 280px;
+        margin-top: 20px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .ogrod-image-heading {
+        width: 300px;
+        height: 200px;
+    }
+}
+
 .ogrod-section-description {
     width: 500px;
     min-height: 200px;
@@ -583,6 +705,18 @@ footer {
     padding: 10px;
     border-radius: 4px;
 }
+
+/** TABLET */
+@media (max-width: 768px) {
+    .ogrod-section-description {
+        min-height: auto;
+        min-width: auto;
+        max-width: auto;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
 /** SECTION MILITARIA */
 #militaria {
     width: 100%;
@@ -598,6 +732,14 @@ footer {
     justify-content: space-evenly;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .militaria-section-layout {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 .militaria-section-description {
     margin-top: 200px;
     border: 1px solid #a9a9a9;
@@ -608,10 +750,37 @@ footer {
     padding: 10px; 
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .militaria-section-description {
+        margin-top: 20px;
+        max-width: auto;
+        min-width: auto;
+        max-height: auto;
+        min-height: auto;
+    }
+}
+
 .militaria-image-heading {
     width: 600px;
     height: 400px;
     border-radius: 8px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .militaria-image-heading {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .militaria-image-heading {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 /** SECTION FAJERWERKI */
@@ -633,9 +802,33 @@ footer {
     justify-content: space-evenly;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .fajerwerki-section-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .fajerwerki-image-heading {
     width: 600px;
     height: 400px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .fajerwerki-image-heading {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .fajerwerki-image-heading {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 .fajerwerki-section-description {
@@ -647,6 +840,17 @@ footer {
     width: 500px;
     min-height: 200px;
     max-height: fit-content;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .fajerwerki-section-description {
+        margin-top: 20px;
+        max-width: 400px;
+        min-width: auto;
+        max-height: 200px;
+        min-height: auto;
+    }
 }
 
 /** SECTION SERWIS */
@@ -664,9 +868,33 @@ footer {
     justify-content: space-evenly;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .serwis-section-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .serwis-image-heading {
     width: 400px;
     height: 400px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .serwis-image-heading {
+        width: 200px;
+        height: 195px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .serwis-image-heading {
+        width: 100px;
+        height: 96px;
+    }
 }
 
 .serwis-section-description {
@@ -678,6 +906,17 @@ footer {
     min-height: 200px;
     max-height: fit-content;
     overflow: hidden;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .serwis-section-description {
+        margin-top: 20px;
+        max-width: 400px;
+        min-width: auto;
+        max-height: 200px;
+        min-height: auto; 
+    }
 }
 
 /** SECTION SKLEP */
@@ -694,10 +933,34 @@ footer {
     justify-content: space-evenly;
 }
 
+/** TABLET */
+@media (max-width: 768px) {
+    .sklep-section-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .sklep-section-images-img {
     width: 600px;
     height: 400px;
     border-radius: 8px;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .sklep-section-images-img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .sklep-section-images-img {
+        width: 430px;
+        height: 290px;
+    }
 }
 
 .sklep-section-description {
@@ -708,6 +971,24 @@ footer {
     width: 500px;
     min-height: 200px;
     max-height: fit-content;
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .sklep-section-description {
+        margin-top: 20px;
+        max-width: 420px;
+        min-width: auto;
+        max-height: 200px;
+        min-height: auto;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .sklep-section-description {
+        max-width: 400px;
+    }
 }
 
 /** SECTION FIRMA */
@@ -909,11 +1190,59 @@ footer {
     z-index: -1;
 }
 
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .background-text {
+        font-size: 12em;
+        overflow: hidden;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 10em;
+        overflow: hidden;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .background-text {
+        font-size: 7em;
+        overflow: hidden;
+    }
+}
+
 /** BACKGROUND TEXT FOR FAJERWERKI SECTION */
 .back-fire {
     filter: opacity(0.6);
     font-size: 14em;
     overflow: hidden;
+}
+
+/** LAPTOP */
+@media (max-width: 1280px) {
+    .back-fire {
+        font-size: 12em;
+        overflow: hidden;
+    }
+}
+
+/** TABLET */
+@media (max-width: 768px) {
+    .back-fire {
+        font-size: 10em;
+        overflow: hidden;
+    }
+}
+
+/** SMALL */
+@media (max-width: 480px) {
+    .back-fire {
+        font-size: 7em;
+        overflow: hidden;
+    }
 }
 
 .hidden-text {
@@ -924,14 +1253,23 @@ footer {
 .copy {
     width: 95%;
     text-align: right;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
+.red-heart {
+    color: crimson;
+    font-size: 0.9em;
+}
+
+/**
 .copy span {
     margin-left: 40px;
     font-size: 0.6em;
 }
-
+*/
 .footer-line {
     width: 50%;
     margin: auto;
