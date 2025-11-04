@@ -152,6 +152,29 @@ header {
     }
 }
 
+.heading-image {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+/*
+@media (max-width: 768px) {
+    .heading-image {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .heading-image {
+        width: 100px;
+        height: 60px;
+    }
+}
+*/
 /** HOME INFO */
 #header-home-info {
     display: grid;
