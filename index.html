@@ -94,12 +94,19 @@
         </nav>
         <div id="head">
             <!--<img class="heading-image" src="" alt="heading-image">-->
-            <iframe width="650" height="390" 
-            src="https://www.youtube.com/embed/g6rhLVOsFoU?si=qpDFzvg0YlisMn_k&amp;start=04" 
+            <iframe id="videoplayer" width="650" height="390" 
+            src="" 
             title="YouTube video player" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin"></iframe>
+             <div class="video-navigation">
+                <button class="video-btn" data-index="0"></button>
+                <button class="video-btn" data-index="1"></button>
+                <button class="video-btn" data-index="2"></button>
+                <button class="video-btn" data-index="3"></button>
+                <button class="video-btn" data-index="4"></button>
+            </div>
         </div>
     </header>
     <section id="news">
@@ -281,5 +288,6 @@
             <p>Desktop first!</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
