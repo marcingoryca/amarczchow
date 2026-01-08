@@ -1,11 +1,11 @@
 (function () {
 
     let sources = [
-        "https://www.youtube.com/embed/g6rhLVOsFoU?si=qpDFzvg0YlisMn_k&amp;start=04",
+        /*"https://www.youtube.com/embed/g6rhLVOsFoU?si=qpDFzvg0YlisMn_k&amp;start=04",
         "https://www.youtube.com/embed/vXCbZJu8Qyk?si=P-1r388hRDAIQ7d_",
         "https://www.youtube.com/embed/pvAtaoxXhTY?si=Hj0IJyv96re_hVmd",
         "https://www.youtube.com/embed/FW3fCnuXYMA?si=NeruILTkO5dwqSBu",
-        "https://www.youtube.com/embed/2TkxykYES6I?si=WIxgHzRebQRHys8V"
+        "https://www.youtube.com/embed/2TkxykYES6I?si=WIxgHzRebQRHys8V"*/
     ];
 
     const iframe = document.getElementById('videoplayer');
