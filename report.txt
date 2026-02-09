@@ -1,0 +1,5 @@
+9.02.2026
++ Dodano plik migracji bike_categories
++ Dodano plik seeder BikeCategorySeeder
++ Dodano plik modelu BikeCategory
++ Dodano plik modelu Bike

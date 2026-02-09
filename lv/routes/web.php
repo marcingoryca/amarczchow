@@ -16,10 +16,7 @@ Route::get('/contact', function () {
 });
 
 Route::get('/rowery', function () {
-    $rower = new Rower(2);
-    //$id = $rower->getId();
-
-    return view('rowery', ['title' => 'ROWERY', 'id' => $rower->getId()]);
+    return view('rowery');
 });
 
 Route::get('/ogrod', function () {
