@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Rower;
+use App\Http\Controllers\BikeCategoriesController;
 
 Route::get('/r', function () {
     return view('welcome');
@@ -15,10 +16,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/rowery', function () {
-    return view('rowery');
-});
+Route::get('/rowery', [BikeCategoriesController::class, 'index']);
 
-Route::get('/ogrod', function () {
-    return view('ogrod', ['title' => 'OGRÓD']);
-});
+Route::get('/ogrod', [GardenCategoriesController::class, 'index']);

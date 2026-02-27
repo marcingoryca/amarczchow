@@ -1370,3 +1370,24 @@ footer {
     min-height: 400px;
     font-size: 2em;
 }
+
+/** TEXT CLASSES */
+.small-text {
+    font-size: 0.5em;
+}
+
+/** BIKE_CATEGORIES */
+.container_bc {
+    display: flex;
+}
+
+.box_bc {
+    width: 280px;
+    min-height: fit-content;
+    border: 1px solid pink;
+}
+
+.image_bc {
+    width: 120px;
+    height: 80px;
+}

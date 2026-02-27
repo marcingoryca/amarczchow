@@ -150,7 +150,7 @@
             <a href="https://amarczchow.pl" title="Amar Czchów Rowery|Kosiarki|Serwis"><img class="logo-image-footer" src="http://localhost/amarczchow/images/logo_amar.png" alt="Logo Amar Czchów"></a>
         </div>
         <div class="copy">
-            <p>Copyright &copy; 2025 amarczchow</p>
+            <p>Copyright &copy; 2026 amarczchow</p>
             <p>Made with <span class="red-heart">&hearts;</span> in <strong>Poland</strong></p>
             <p>Desktop first!</p>
         </div>
