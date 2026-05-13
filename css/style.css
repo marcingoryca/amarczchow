@@ -173,7 +173,7 @@ iframe {
 .video-btn {
     width: 12px;
     height: 12px;
-    background: rgba(244, 117, 117, 0.9);
+    background: rgba(36,36,36,1.0);
     border-radius: 50px;
     border: none;
     margin-left: 16px;
@@ -532,10 +532,10 @@ footer {
 
 /** SECTION NEWS */
 #news {
-    min-height: 400px;
+    min-height: 2px;
     max-height: fit-content;
     width: 100%;
-    background-color: rgba(255, 128, 125, 0.7);
+    background-color: rgba(12, 12, 12, 1.0);
     text-align: center;
 }
 
@@ -674,7 +674,7 @@ footer {
     min-height: 400px;
     max-height: fit-content;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    background-color: rgba(128, 129, 120, 1.0);
+    background-color: rgba(205, 228, 26, 1.0);
 }
 
 .ogrod-section-layout {
@@ -1390,4 +1390,10 @@ footer {
 .image_bc {
     width: 120px;
     height: 80px;
+}
+
+.spacer-sections {
+    width: 100%;
+    height: 2px;
+    background: rgba(26, 26, 26, 1.0);
 }
